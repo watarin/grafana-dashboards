@@ -13,13 +13,36 @@
     ]
   },
   "description": "Visualize AWS ElasticSearch Service metrics",
-  "editable": true,
+  "editable": false,
   "gnetId": 584,
   "graphTooltip": 0,
   "id": 23,
-  "iteration": 1535956519630,
+  "iteration": 1537929490886,
   "links": [],
   "panels": [
+    {
+      "content": "",
+      "gridPos": {
+        "h": 1,
+        "w": 24,
+        "x": 0,
+        "y": 0
+      },
+      "id": 27,
+      "links": [],
+      "mode": "markdown",
+      "repeat": "domain",
+      "repeatDirection": "h",
+      "scopedVars": {
+        "domain": {
+          "selected": true,
+          "text": "DOMAINNAME",
+          "value": "DOMAINNAME"
+        }
+      },
+      "title": "$domain",
+      "type": "text"
+    },
     {
       "aliasColors": {
         "ClusterStatus.red_Maximum": "#890f02",
@@ -37,7 +60,7 @@
         "h": 8,
         "w": 24,
         "x": 0,
-        "y": 0
+        "y": 1
       },
       "id": 7,
       "isNew": true,
@@ -61,8 +84,15 @@
       "pointradius": 5,
       "points": false,
       "renderer": "flot",
-      "repeat": null,
+      "repeat": "domain",
       "repeatDirection": "h",
+      "scopedVars": {
+        "domain": {
+          "selected": true,
+          "text": "DOMAINNAME",
+          "value": "DOMAINNAME"
+        }
+      },
       "seriesOverrides": [],
       "spaceLength": 10,
       "stack": false,
@@ -229,7 +259,7 @@
         "h": 8,
         "w": 24,
         "x": 0,
-        "y": 8
+        "y": 9
       },
       "id": 11,
       "isNew": true,
@@ -253,6 +283,15 @@
       "pointradius": 5,
       "points": false,
       "renderer": "flot",
+      "repeat": "domain",
+      "repeatDirection": "h",
+      "scopedVars": {
+        "domain": {
+          "selected": true,
+          "text": "DOMAINNAME",
+          "value": "DOMAINNAME"
+        }
+      },
       "seriesOverrides": [],
       "spaceLength": 10,
       "stack": false,
@@ -350,7 +389,7 @@
         "h": 8,
         "w": 24,
         "x": 0,
-        "y": 16
+        "y": 17
       },
       "id": 12,
       "isNew": true,
@@ -374,6 +413,15 @@
       "pointradius": 5,
       "points": false,
       "renderer": "flot",
+      "repeat": "domain",
+      "repeatDirection": "h",
+      "scopedVars": {
+        "domain": {
+          "selected": true,
+          "text": "DOMAINNAME",
+          "value": "DOMAINNAME"
+        }
+      },
       "seriesOverrides": [],
       "spaceLength": 10,
       "stack": false,
@@ -471,7 +519,7 @@
         "h": 8,
         "w": 24,
         "x": 0,
-        "y": 24
+        "y": 25
       },
       "id": 13,
       "isNew": true,
@@ -495,6 +543,15 @@
       "pointradius": 5,
       "points": false,
       "renderer": "flot",
+      "repeat": "domain",
+      "repeatDirection": "h",
+      "scopedVars": {
+        "domain": {
+          "selected": true,
+          "text": "DOMAINNAME",
+          "value": "DOMAINNAME"
+        }
+      },
       "seriesOverrides": [],
       "spaceLength": 10,
       "stack": false,
@@ -592,7 +649,7 @@
         "h": 8,
         "w": 24,
         "x": 0,
-        "y": 32
+        "y": 33
       },
       "id": 14,
       "isNew": true,
@@ -616,6 +673,15 @@
       "pointradius": 5,
       "points": false,
       "renderer": "flot",
+      "repeat": "domain",
+      "repeatDirection": "h",
+      "scopedVars": {
+        "domain": {
+          "selected": true,
+          "text": "DOMAINNAME",
+          "value": "DOMAINNAME"
+        }
+      },
       "seriesOverrides": [],
       "spaceLength": 10,
       "stack": false,
@@ -713,7 +779,7 @@
         "h": 8,
         "w": 24,
         "x": 0,
-        "y": 40
+        "y": 41
       },
       "id": 15,
       "isNew": true,
@@ -737,6 +803,15 @@
       "pointradius": 5,
       "points": false,
       "renderer": "flot",
+      "repeat": "domain",
+      "repeatDirection": "h",
+      "scopedVars": {
+        "domain": {
+          "selected": true,
+          "text": "DOMAINNAME",
+          "value": "DOMAINNAME"
+        }
+      },
       "seriesOverrides": [],
       "spaceLength": 10,
       "stack": false,
@@ -868,7 +943,7 @@
         "h": 8,
         "w": 24,
         "x": 0,
-        "y": 48
+        "y": 49
       },
       "id": 24,
       "isNew": true,
@@ -892,6 +967,15 @@
       "pointradius": 5,
       "points": false,
       "renderer": "flot",
+      "repeat": "domain",
+      "repeatDirection": "h",
+      "scopedVars": {
+        "domain": {
+          "selected": true,
+          "text": "DOMAINNAME",
+          "value": "DOMAINNAME"
+        }
+      },
       "seriesOverrides": [],
       "spaceLength": 10,
       "stack": false,
@@ -989,7 +1073,7 @@
         "h": 8,
         "w": 24,
         "x": 0,
-        "y": 56
+        "y": 57
       },
       "id": 16,
       "isNew": true,
@@ -1013,6 +1097,15 @@
       "pointradius": 5,
       "points": false,
       "renderer": "flot",
+      "repeat": "domain",
+      "repeatDirection": "h",
+      "scopedVars": {
+        "domain": {
+          "selected": true,
+          "text": "DOMAINNAME",
+          "value": "DOMAINNAME"
+        }
+      },
       "seriesOverrides": [],
       "spaceLength": 10,
       "stack": false,
@@ -1110,7 +1203,7 @@
         "h": 8,
         "w": 24,
         "x": 0,
-        "y": 64
+        "y": 65
       },
       "id": 17,
       "isNew": true,
@@ -1134,6 +1227,15 @@
       "pointradius": 5,
       "points": false,
       "renderer": "flot",
+      "repeat": "domain",
+      "repeatDirection": "h",
+      "scopedVars": {
+        "domain": {
+          "selected": true,
+          "text": "DOMAINNAME",
+          "value": "DOMAINNAME"
+        }
+      },
       "seriesOverrides": [],
       "spaceLength": 10,
       "stack": false,
@@ -1231,7 +1333,7 @@
         "h": 8,
         "w": 24,
         "x": 0,
-        "y": 72
+        "y": 73
       },
       "id": 18,
       "isNew": true,
@@ -1255,6 +1357,15 @@
       "pointradius": 5,
       "points": false,
       "renderer": "flot",
+      "repeat": "domain",
+      "repeatDirection": "h",
+      "scopedVars": {
+        "domain": {
+          "selected": true,
+          "text": "DOMAINNAME",
+          "value": "DOMAINNAME"
+        }
+      },
       "seriesOverrides": [],
       "spaceLength": 10,
       "stack": false,
@@ -1386,7 +1497,7 @@
         "h": 8,
         "w": 24,
         "x": 0,
-        "y": 80
+        "y": 81
       },
       "id": 19,
       "isNew": true,
@@ -1410,6 +1521,15 @@
       "pointradius": 5,
       "points": false,
       "renderer": "flot",
+      "repeat": "domain",
+      "repeatDirection": "h",
+      "scopedVars": {
+        "domain": {
+          "selected": true,
+          "text": "DOMAINNAME",
+          "value": "DOMAINNAME"
+        }
+      },
       "seriesOverrides": [],
       "spaceLength": 10,
       "stack": false,
@@ -1541,7 +1661,7 @@
         "h": 8,
         "w": 24,
         "x": 0,
-        "y": 88
+        "y": 89
       },
       "id": 20,
       "isNew": true,
@@ -1565,6 +1685,15 @@
       "pointradius": 5,
       "points": false,
       "renderer": "flot",
+      "repeat": "domain",
+      "repeatDirection": "h",
+      "scopedVars": {
+        "domain": {
+          "selected": true,
+          "text": "DOMAINNAME",
+          "value": "DOMAINNAME"
+        }
+      },
       "seriesOverrides": [],
       "spaceLength": 10,
       "stack": false,
@@ -1696,7 +1825,7 @@
         "h": 8,
         "w": 24,
         "x": 0,
-        "y": 96
+        "y": 97
       },
       "id": 21,
       "isNew": true,
@@ -1720,6 +1849,15 @@
       "pointradius": 5,
       "points": false,
       "renderer": "flot",
+      "repeat": "domain",
+      "repeatDirection": "h",
+      "scopedVars": {
+        "domain": {
+          "selected": true,
+          "text": "DOMAINNAME",
+          "value": "DOMAINNAME"
+        }
+      },
       "seriesOverrides": [],
       "spaceLength": 10,
       "stack": false,
@@ -1817,7 +1955,7 @@
         "h": 8,
         "w": 24,
         "x": 0,
-        "y": 104
+        "y": 105
       },
       "id": 22,
       "isNew": true,
@@ -1841,6 +1979,15 @@
       "pointradius": 5,
       "points": false,
       "renderer": "flot",
+      "repeat": "domain",
+      "repeatDirection": "h",
+      "scopedVars": {
+        "domain": {
+          "selected": true,
+          "text": "DOMAINNAME",
+          "value": "DOMAINNAME"
+        }
+      },
       "seriesOverrides": [],
       "spaceLength": 10,
       "stack": false,
@@ -1938,7 +2085,7 @@
         "h": 8,
         "w": 24,
         "x": 0,
-        "y": 112
+        "y": 113
       },
       "id": 25,
       "isNew": true,
@@ -1962,6 +2109,15 @@
       "pointradius": 5,
       "points": false,
       "renderer": "flot",
+      "repeat": "domain",
+      "repeatDirection": "h",
+      "scopedVars": {
+        "domain": {
+          "selected": true,
+          "text": "DOMAINNAME",
+          "value": "DOMAINNAME"
+        }
+      },
       "seriesOverrides": [],
       "spaceLength": 10,
       "stack": false,
@@ -2055,21 +2211,33 @@
     "list": [
       {
         "allValue": null,
-        "current": {},
+        "current": {
+          "selected": true,
+          "text": "AWSACCOUNTID",
+          "value": "AWSACCOUNTID"
+        },
         "hide": 0,
         "includeAll": false,
         "label": "ClientId",
         "multi": false,
         "name": "ClientId",
         "options": [
-          {}
+          {
+            "selected": true,
+            "text": "AWSACCOUNTID",
+            "value": "AWSACCOUNTID"
+          }
         ],
-        "query": "NNNN",
+        "query": "AWSACCOUNTID",
         "type": "custom"
       },
       {
         "allValue": null,
-        "current": {},
+        "current": {
+          "selected": true,
+          "text": "ap-northeast-1",
+          "value": "ap-northeast-1"
+        },
         "datasource": "AWS",
         "hide": 0,
         "includeAll": false,
@@ -2089,12 +2257,18 @@
       },
       {
         "allValue": null,
-        "current": {},
+        "current": {
+          "tags": [],
+          "text": "DOMAINNAME",
+          "value": [
+            "DOMAINNAME"
+          ]
+        },
         "datasource": "AWS",
         "hide": 0,
         "includeAll": false,
         "label": "Domain name",
-        "multi": false,
+        "multi": true,
         "name": "domain",
         "options": [],
         "query": "dimension_values($region,AWS/ES, CPUUtilization,DomainName)",
@@ -2140,5 +2314,5 @@
   },
   "timezone": "browser",
   "title": "AWS ES",
-  "version": 1
+  "version": 19
 }
